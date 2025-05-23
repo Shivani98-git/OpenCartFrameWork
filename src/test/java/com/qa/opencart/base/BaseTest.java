@@ -2,6 +2,7 @@ package com.qa.opencart.base;
 
 import java.util.Properties;
 
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
