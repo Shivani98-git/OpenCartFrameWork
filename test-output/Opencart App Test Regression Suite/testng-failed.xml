@@ -28,8 +28,8 @@
         <methods>
           <include name="loginPageTitleTest"/>
           <include name="setup"/>
-          <include name="attachScreenshot"/>
           <include name="loginPageURLTest"/>
+          <include name="attachScreenshot"/>
           <include name="doLoginTest"/>
           <include name="forgotPasswordLinkExistTest"/>
           <include name="tearDown"/>
@@ -44,8 +44,8 @@
         <methods>
           <include name="loginPageTitleTest"/>
           <include name="setup"/>
-          <include name="loginPageURLTest"/>
           <include name="attachScreenshot"/>
+          <include name="loginPageURLTest"/>
           <include name="doLoginTest"/>
           <include name="forgotPasswordLinkExistTest"/>
           <include name="tearDown"/>

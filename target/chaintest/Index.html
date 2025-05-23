@@ -20,8 +20,8 @@
       </div>
       <div>
         <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 3s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-05-23 04:24:34 p.m.</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-05-23 04:24:37 p.m.</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-05-23 04:38:55 p.m.</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-05-23 04:38:58 p.m.</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -114,15 +114,45 @@
             <div class="col-4">
               <h6 class="mb-3 testname fs-6 failed">Opencart App Test Regression Suite</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 790ms</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 972ms</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-05-23 04:24:36 p.m.</span>
+                  2025-05-23 04:38:57 p.m.</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-05-23 04:24:36 p.m.</span>
+                  2025-05-23 04:38:58 p.m.</span>
               </div>
               
             </div>
             <div class="col-8">
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">com.qa.opencart.tests.LoginPageTest</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">0ms</span>
+                      </div>
+                    </div>
+                    
+
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">com.qa.opencart.tests.LoginPageTest</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">0ms</span>
+                      </div>
+                    </div>
+                    
+
+                  </div>
+                </div>
                 <div class="card mb-3 result failed">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
@@ -131,7 +161,7 @@
                         <span class="fs-6 ms-2">com.qa.opencart.tests.LoginPageTest</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">192ms</span>
+                        <span class="badge text-dark bg-light">266ms</span>
                       </div>
                     </div>
                     
@@ -177,7 +207,7 @@
           <span class="fs-6 ms-2">forgotPasswordLinkExistTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">2ms</span>
+          <span class="badge text-dark bg-light">1ms</span>
         </div>
       </div>
       <p class="desc">forgotPasswordLinkExistTest</p>
@@ -215,74 +245,6 @@
         </div>
       </div>
       <p class="desc">forgotPasswordLinkExistTest</p>
-        <pre class="py-2 mt-2 mb-4">java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
-	at java.base/java.util.Properties.load(Properties.java:409)
-	at com.qa.opencart.factory.DriverFactory.initProp(DriverFactory.java:114)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:47)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-</pre>
-    </div>
-    <div class="leaf skipped pb-1 ">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">loginPageTitleTest </span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">0ms</span>
-        </div>
-      </div>
-      <p class="desc">checking login title</p>
-        <pre class="py-2 mt-2 mb-4">java.lang.NullPointerException: inStream parameter is null
-	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
-	at java.base/java.util.Properties.load(Properties.java:409)
-	at com.qa.opencart.factory.DriverFactory.initProp(DriverFactory.java:114)
-	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:47)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-	at org.testng.TestRunner.run(TestRunner.java:595)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-</pre>
-    </div>
-    <div class="leaf skipped pb-1 ">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-exclamation-octagon-fill text-info"></i>
-          <span class="fs-6 ms-2">loginPageTitleTest </span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">0ms</span>
-        </div>
-      </div>
-      <p class="desc">checking login title</p>
         <pre class="py-2 mt-2 mb-4">java.lang.NullPointerException: inStream parameter is null
 	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
 	at java.base/java.util.Properties.load(Properties.java:409)
@@ -344,6 +306,74 @@
       <div class="d-flex justify-content-between mt-3">
         <div>
             <i class="bi bi-exclamation-octagon-fill text-info"></i>
+          <span class="fs-6 ms-2">loginPageTitleTest </span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">0ms</span>
+        </div>
+      </div>
+      <p class="desc">checking login title</p>
+        <pre class="py-2 mt-2 mb-4">java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:409)
+	at com.qa.opencart.factory.DriverFactory.initProp(DriverFactory.java:114)
+	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+	at org.testng.TestRunner.run(TestRunner.java:595)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre>
+    </div>
+    <div class="leaf skipped pb-1 ">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-exclamation-octagon-fill text-info"></i>
+          <span class="fs-6 ms-2">loginPageTitleTest </span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">0ms</span>
+        </div>
+      </div>
+      <p class="desc">checking login title</p>
+        <pre class="py-2 mt-2 mb-4">java.lang.NullPointerException: inStream parameter is null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:246)
+	at java.base/java.util.Properties.load(Properties.java:409)
+	at com.qa.opencart.factory.DriverFactory.initProp(DriverFactory.java:114)
+	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:633)
+	at org.testng.TestRunner.run(TestRunner.java:595)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre>
+    </div>
+    <div class="leaf skipped pb-1 ">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-exclamation-octagon-fill text-info"></i>
           <span class="fs-6 ms-2">loginPageURLTest </span>
         </div>
         <div>
@@ -483,7 +513,7 @@
           <span class="fs-6 ms-2">doLoginTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">0ms</span>
+          <span class="badge text-dark bg-light">1ms</span>
         </div>
       </div>
       <p class="desc">login with valid credentials</p>
@@ -517,7 +547,7 @@
           <span class="fs-6 ms-2">doLoginTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">0ms</span>
+          <span class="badge text-dark bg-light">2ms</span>
         </div>
       </div>
       <p class="desc">login with valid credentials</p>
@@ -545,36 +575,6 @@
 </pre>
     </div>
   </div>
-
-                  </div>
-                </div>
-                <div class="card mb-3 result passed">
-                  <div class="card-body">
-                    <div class="d-flex justify-content-between">
-                      <div>
-                          <i class="bi bi-check-circle-fill text-success"></i>
-                        <span class="fs-6 ms-2">com.qa.opencart.tests.LoginPageTest</span>
-                      </div>
-                      <div>
-                        <span class="badge text-dark bg-light">0ms</span>
-                      </div>
-                    </div>
-                    
-
-                  </div>
-                </div>
-                <div class="card mb-3 result passed">
-                  <div class="card-body">
-                    <div class="d-flex justify-content-between">
-                      <div>
-                          <i class="bi bi-check-circle-fill text-success"></i>
-                        <span class="fs-6 ms-2">com.qa.opencart.tests.LoginPageTest</span>
-                      </div>
-                      <div>
-                        <span class="badge text-dark bg-light">0ms</span>
-                      </div>
-                    </div>
-                    
 
                   </div>
                 </div>
@@ -682,12 +682,12 @@
                   <td>Toggle skipped tests</td>
                 </tr>
                 <tr>
-                  <td>L</td>
-                  <td>Toggle theme (light/dark)</td>
-                </tr>
-                <tr>
                   <td>esc</td>
                   <td>Reset all filters</td>
+                </tr>
+                <tr>
+                  <td>L</td>
+                  <td>Toggle theme (light/dark)</td>
                 </tr>
                 <tr>
                   <td>f</td>

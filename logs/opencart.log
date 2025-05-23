@@ -772,3 +772,377 @@ com.qa.opencart.tests.LoginPageTest
 2025-05-23 16:24:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\junitreports exists: true
 2025-05-23 16:24:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\junitreports\TEST-com.qa.opencart.tests.LoginPageTest.xml
 2025-05-23 16:24:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@523abba9: 16 ms
+2025-05-23 16:38:54 DEBUG TestNG:82 - suiteXmlPath: "D:\Automation Testing\eclipse workspace\POMSeries\src\test\resources\testrunners\testng_regression.xml"
+2025-05-23 16:38:55 DEBUG ChainPluginService:122 - Found configuration entry chaintest.generator.email.enabled, will use chaintest.generator.email.class-name to resolve class
+2025-05-23 16:38:55 DEBUG ChainPluginService:122 - Found configuration entry chaintest.generator.simple.enabled, will use chaintest.generator.simple.class-name to resolve class
+2025-05-23 16:38:55 DEBUG FileGenerator:73 - Loading template index.ftl for class class com.aventstack.chaintest.generator.ChainTestEmailGenerator with basePackagePath email/
+2025-05-23 16:38:56 DEBUG FileGenerator:73 - Loading template index.ftl for class class com.aventstack.chaintest.generator.ChainTestSimpleGenerator with basePackagePath simple
+2025-05-23 16:38:56 INFO  Utils:112 - [TestRunner] Running the tests in 'Login Page Test_chrome' with parallel mode:tests
+2025-05-23 16:38:56 INFO  Utils:112 - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@368424db priority: 10
+2025-05-23 16:38:56 INFO  Utils:112 - [TestClass] Creating TestClass for [ClassImpl class=com.qa.opencart.tests.LoginPageTest]
+2025-05-23 16:38:56 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.loginPageTitleTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:56 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.forgotPasswordLinkExistTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:56 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.doLoginTest()[pri:32767, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:56 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.loginPageURLTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.setup()
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 23 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.tearDown()
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:56 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.attachScreenshot()
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.loginPageTitleTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.forgotPasswordLinkExistTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.doLoginTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.loginPageURLTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [TestRunner] Running the tests in 'Login Page Test_firefox' with parallel mode:tests
+2025-05-23 16:38:57 INFO  Utils:112 - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@2d73e8c4 priority: 10
+2025-05-23 16:38:57 INFO  Utils:112 - [TestClass] Creating TestClass for [ClassImpl class=com.qa.opencart.tests.LoginPageTest]
+2025-05-23 16:38:57 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.loginPageTitleTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:57 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.forgotPasswordLinkExistTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:57 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.doLoginTest()[pri:32767, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:57 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.loginPageURLTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.setup()
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.tearDown()
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.attachScreenshot()
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.loginPageTitleTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.forgotPasswordLinkExistTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.doLoginTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.loginPageURLTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [TestRunner] Running the tests in 'Login Page Test_edge' with parallel mode:tests
+2025-05-23 16:38:57 INFO  Utils:112 - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@260d48f5 priority: 10
+2025-05-23 16:38:57 INFO  Utils:112 - [TestClass] Creating TestClass for [ClassImpl class=com.qa.opencart.tests.LoginPageTest]
+2025-05-23 16:38:57 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.loginPageTitleTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:57 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.forgotPasswordLinkExistTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:57 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.doLoginTest()[pri:32767, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:57 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.loginPageURLTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.setup()
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.tearDown()
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.attachScreenshot()
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.loginPageTitleTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.forgotPasswordLinkExistTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.doLoginTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.loginPageURLTest()
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [TestNG] Running:
+  D:\Automation Testing\eclipse workspace\POMSeries\src\test\resources\testrunners\testng_regression.xml
+
+2025-05-23 16:38:57 INFO  Utils:112 - [SuiteRunner] Created 3 TestRunners
+2025-05-23 16:38:57 INFO  Utils:112 - [ThreadUtil] Starting executor timeOut:2147483647ms workers:3 threadPoolSize:5
+2025-05-23 16:38:57 INFO  Utils:112 - [[SuiteWorker]] Running XML Test 'Login Page Test_edge' in Parallel
+2025-05-23 16:38:57 INFO  Utils:112 - [[SuiteWorker]] Running XML Test 'Login Page Test_firefox' in Parallel
+2025-05-23 16:38:57 INFO  Utils:112 - [[SuiteWorker]] Running XML Test 'Login Page Test_chrome' in Parallel
+2025-05-23 16:38:57 INFO  Utils:112 - [TestRunner] Running test Login Page Test_firefox on 1  classes,  included groups:[] excluded groups:[]
+2025-05-23 16:38:57 INFO  Utils:112 - [TestRunner] Running test Login Page Test_edge on 1  classes,  included groups:[] excluded groups:[]
+2025-05-23 16:38:57 INFO  Utils:112 - [TestRunner] Running test Login Page Test_chrome on 1  classes,  included groups:[] excluded groups:[]
+2025-05-23 16:38:57 INFO  TestClass:112 - ===== Test class
+com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:57 INFO  TestClass:112 - ===== Test class
+com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:57 INFO  TestClass:112 - ===== Test class
+com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@6ce2e079]
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@148ab138]
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@60816371]
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.forgotPasswordLinkExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@6ce2e079]
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.forgotPasswordLinkExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@148ab138]
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.forgotPasswordLinkExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@60816371]
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.doLoginTest()[pri:32767, instance:com.qa.opencart.tests.LoginPageTest@6ce2e079]
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.doLoginTest()[pri:32767, instance:com.qa.opencart.tests.LoginPageTest@148ab138]
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.doLoginTest()[pri:32767, instance:com.qa.opencart.tests.LoginPageTest@60816371]
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.loginPageURLTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@148ab138]
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.loginPageURLTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@6ce2e079]
+2025-05-23 16:38:57 INFO  TestClass:112 -     @Test LoginPageTest.loginPageURLTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@60816371]
+2025-05-23 16:38:57 INFO  TestClass:112 -   @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@148ab138]
+2025-05-23 16:38:57 INFO  TestClass:112 -   @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@6ce2e079]
+2025-05-23 16:38:57 INFO  TestClass:112 -   @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@60816371]
+2025-05-23 16:38:57 INFO  TestClass:112 - ======
+2025-05-23 16:38:57 INFO  TestClass:112 - ======
+2025-05-23 16:38:57 INFO  TestClass:112 - ======
+2025-05-23 16:38:57 INFO  Utils:112 - [Invoker 1165000566] Invoking @BeforeTest BaseTest.setup(java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@6ce2e079]
+2025-05-23 16:38:57 INFO  Utils:112 - [Invoker 1747085016] Invoking @BeforeTest BaseTest.setup(java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@148ab138]
+2025-05-23 16:38:57 INFO  Utils:112 - [Invoker 1408538096] Invoking @BeforeTest BaseTest.setup(java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@60816371]
+2025-05-23 16:38:57 INFO  Utils:112 - Failed to invoke configuration method com.qa.opencart.base.BaseTest.setup:inStream parameter is null
+2025-05-23 16:38:57 INFO  Utils:112 - Failed to invoke configuration method com.qa.opencart.base.BaseTest.setup:inStream parameter is null
+2025-05-23 16:38:57 INFO  Utils:112 - Failed to invoke configuration method com.qa.opencart.base.BaseTest.setup:inStream parameter is null
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+2025-05-23 16:38:57 INFO  Utils:112 - [Invoker 1747085016] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@148ab138]
+2025-05-23 16:38:57 INFO  Utils:112 - [Invoker 1408538096] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@60816371]
+2025-05-23 16:38:57 INFO  Utils:112 - [Invoker 1165000566] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@6ce2e079]
+2025-05-23 16:38:57 INFO  Utils:112 - [Invoker 1747085016] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@148ab138]
+2025-05-23 16:38:57 INFO  Utils:112 - [Invoker 1408538096] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@60816371]
+2025-05-23 16:38:57 INFO  Utils:112 - [Invoker 1165000566] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@6ce2e079]
+2025-05-23 16:38:58 INFO  Utils:112 - [Invoker 1747085016] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@148ab138]
+2025-05-23 16:38:58 INFO  Utils:112 - [Invoker 1408538096] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@60816371]
+2025-05-23 16:38:58 INFO  Utils:112 - [Invoker 1165000566] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@6ce2e079]
+2025-05-23 16:38:58 INFO  Utils:112 - [Invoker 1747085016] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@148ab138]
+2025-05-23 16:38:58 INFO  Utils:112 - [Invoker 1408538096] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@60816371]
+2025-05-23 16:38:58 INFO  Utils:112 - [Invoker 1747085016] Skipping @AfterTest BaseTest.tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@148ab138]
+2025-05-23 16:38:58 INFO  Utils:112 - [Invoker 1408538096] Skipping @AfterTest BaseTest.tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@60816371]
+2025-05-23 16:38:58 INFO  Utils:112 - [Invoker 1165000566] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@6ce2e079]
+2025-05-23 16:38:58 INFO  Utils:112 - [Invoker 1165000566] Skipping @AfterTest BaseTest.tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@6ce2e079]
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite\Login Page Test_edge.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite\Login Page Test_edge.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite\Login Page Test_firefox.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite\Login Page Test_firefox.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite\Login Page Test_chrome.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite\Login Page Test_chrome.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6dcbbb49: 0 ms
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\toc.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\toc.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\Login Page Test_edge.properties
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\Login Page Test_edge.properties
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\Login Page Test_firefox.properties
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\Login Page Test_firefox.properties
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\Login Page Test_chrome.properties
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\Login Page Test_chrome.properties
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\index.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\index.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\main.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\main.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\groups.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\groups.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\classes.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\classes.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\reporter-output.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\reporter-output.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\methods-not-run.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\methods-not-run.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\testng.xml.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Regression Suite\testng.xml.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\index.html
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\index.html
+2025-05-23 16:38:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2335aef2: 77 ms
+2025-05-23 16:38:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@7cdc4070: 97 ms
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\testng-failed.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\testng-failed.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite\testng-failed.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Regression Suite\testng-failed.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@5a7a6d34: 29 ms
+2025-05-23 16:38:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@92e2c93: 25 ms
+2025-05-23 16:38:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@40a28bda: 19 ms
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\junitreports\TEST-com.qa.opencart.tests.LoginPageTest.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\junitreports exists: true
+2025-05-23 16:38:58 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\junitreports\TEST-com.qa.opencart.tests.LoginPageTest.xml
+2025-05-23 16:38:58 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@b8b2184: 14 ms
+2025-05-23 16:42:35 DEBUG TestNG:82 - suiteXmlPath: "D:\Automation Testing\eclipse workspace\POMSeries\src\test\resources\testrunners\testng_sanity.xml"
+2025-05-23 16:42:36 INFO  Utils:112 - [TestRunner] Running the tests in 'Login Page Test_chrome' with parallel mode:tests
+2025-05-23 16:42:36 INFO  Utils:112 - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@60f21960 priority: 10
+2025-05-23 16:42:36 INFO  Utils:112 - [TestClass] Creating TestClass for [ClassImpl class=com.qa.opencart.tests.LoginPageTest]
+2025-05-23 16:42:36 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.loginPageTitleTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:42:36 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.forgotPasswordLinkExistTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:42:36 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.doLoginTest()[pri:32767, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:42:36 INFO  Utils:112 - [TestClass] Adding method LoginPageTest.loginPageURLTest()[pri:0, instance:null] on TestClass class com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.setup()
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 10 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 19 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.tearDown()
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.base.attachScreenshot()
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.loginPageTitleTest()
+2025-05-23 16:42:36 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.forgotPasswordLinkExistTest()
+2025-05-23 16:42:36 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.doLoginTest()
+2025-05-23 16:42:36 INFO  Utils:112 - [XmlMethodSelector] Including method com.qa.opencart.tests.loginPageURLTest()
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-05-23 16:42:36 INFO  Utils:112 - [TestNG] Running:
+  D:\Automation Testing\eclipse workspace\POMSeries\src\test\resources\testrunners\testng_sanity.xml
+
+2025-05-23 16:42:36 INFO  Utils:112 - [SuiteRunner] Created 1 TestRunners
+2025-05-23 16:42:36 INFO  Utils:112 - [ThreadUtil] Starting executor timeOut:2147483647ms workers:1 threadPoolSize:5
+2025-05-23 16:42:36 INFO  Utils:112 - [[SuiteWorker]] Running XML Test 'Login Page Test_chrome' in Parallel
+2025-05-23 16:42:36 INFO  Utils:112 - [TestRunner] Running test Login Page Test_chrome on 1  classes,  included groups:[] excluded groups:[]
+2025-05-23 16:42:36 INFO  TestClass:112 - ===== Test class
+com.qa.opencart.tests.LoginPageTest
+2025-05-23 16:42:36 INFO  TestClass:112 -     @Test LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fbd3e75]
+2025-05-23 16:42:36 INFO  TestClass:112 -     @Test LoginPageTest.forgotPasswordLinkExistTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fbd3e75]
+2025-05-23 16:42:36 INFO  TestClass:112 -     @Test LoginPageTest.doLoginTest()[pri:32767, instance:com.qa.opencart.tests.LoginPageTest@7fbd3e75]
+2025-05-23 16:42:36 INFO  TestClass:112 -     @Test LoginPageTest.loginPageURLTest()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fbd3e75]
+2025-05-23 16:42:36 INFO  TestClass:112 -   @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fbd3e75]
+2025-05-23 16:42:36 INFO  TestClass:112 - ======
+2025-05-23 16:42:36 INFO  Utils:112 - [Invoker 594207037] Invoking @BeforeTest BaseTest.setup(java.lang.String)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fbd3e75]
+2025-05-23 16:42:37 INFO  Utils:112 - Failed to invoke configuration method com.qa.opencart.base.BaseTest.setup:inStream parameter is null
+2025-05-23 16:42:37 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+2025-05-23 16:42:37 INFO  Utils:112 - [Invoker 594207037] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fbd3e75]
+2025-05-23 16:42:37 INFO  Utils:112 - [Invoker 594207037] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fbd3e75]
+2025-05-23 16:42:37 INFO  Utils:112 - [Invoker 594207037] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fbd3e75]
+2025-05-23 16:42:37 INFO  Utils:112 - [Invoker 594207037] Skipping @AfterMethod BaseTest.attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fbd3e75]
+2025-05-23 16:42:37 INFO  Utils:112 - [Invoker 594207037] Skipping @AfterTest BaseTest.tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@7fbd3e75]
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Sanity Suite\Login Page Test_chrome.xml
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Sanity Suite exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Sanity Suite\Login Page Test_chrome.xml
+2025-05-23 16:42:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7af0affa: 0 ms
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\toc.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\toc.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\Login Page Test_chrome.properties
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\Login Page Test_chrome.properties
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\index.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\index.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\main.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\main.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\groups.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\groups.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\classes.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\classes.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\reporter-output.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\reporter-output.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\methods-not-run.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\methods-not-run.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\testng.xml.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\Opencart App Test Sanity Suite\testng.xml.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\index.html
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\old exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\old\index.html
+2025-05-23 16:42:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@ce12fbb: 68 ms
+2025-05-23 16:42:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@29f3c438: 107 ms
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\testng-failed.xml
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\testng-failed.xml
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Sanity Suite\testng-failed.xml
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Sanity Suite exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\Opencart App Test Sanity Suite\testng-failed.xml
+2025-05-23 16:42:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@110b7837: 30 ms
+2025-05-23 16:42:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@634ca3e7: 33 ms
+2025-05-23 16:42:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2de9ca6: 23 ms
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]] Attempting to create D:\Automation Testing\eclipse workspace\POMSeries\test-output\junitreports\TEST-com.qa.opencart.tests.LoginPageTest.xml
+2025-05-23 16:42:37 INFO  Utils:112 - [[Utils]]   Directory D:\Automation Testing\eclipse workspace\POMSeries\test-output\junitreports exists: true
+2025-05-23 16:42:37 INFO  Utils:112 - Creating D:\Automation Testing\eclipse workspace\POMSeries\test-output\junitreports\TEST-com.qa.opencart.tests.LoginPageTest.xml
+2025-05-23 16:42:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2eda2062: 15 ms

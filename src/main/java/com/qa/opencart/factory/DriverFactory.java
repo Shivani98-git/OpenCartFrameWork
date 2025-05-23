@@ -81,26 +81,26 @@ public class DriverFactory {
 		try {
 		if(envName==null) {
 			System.out.println("env is null,hence running in QA env");
-			ip=new FileInputStream("./src/test/resource/config/qa.config.properties");
+			ip=new FileInputStream("./src/test/resources/config/qa.config.properties");
 		}
 		else
 		{
 			System.out.println("running the test on env:"+envName);
 			switch (envName.toLowerCase().trim()) {
 			case "qa": 
-			ip=new FileInputStream("./src/test/resource/config/qa.config.properties");
+			ip=new FileInputStream("./src/test/resources/config/qa.config.properties");
 				break;
 			case "dev": 
-			ip=new FileInputStream("./src/test/resource/config/dev.config.properties");
+			ip=new FileInputStream("./src/test/resources/config/dev.config.properties");
 				break;
 			case "stage": 
-			ip=new FileInputStream("./src/test/resource/config/stage.config.properties");
+			ip=new FileInputStream("./src/test/resources/config/stage.config.properties");
 				break;
 			case "uat": 
-			ip=new FileInputStream("./src/test/resource/config/uat.config.properties");
+			ip=new FileInputStream("./src/test/resources/config/uat.config.properties");
 				break;
 			case "prod": 
-			ip=new FileInputStream("./src/test/resource/config/config.properties");
+			ip=new FileInputStream("./src/test/resources/config/config.properties");
 				break;
 			
 			default:
