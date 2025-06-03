@@ -21,36 +21,4 @@
       </class> <!-- com.qa.opencart.tests.LoginPageTest -->
     </classes>
   </test> <!-- Login Page Test_edge(failed) -->
-  <test thread-count="5" parallel="tests" name="Login Page Test_firefox(failed)" verbose="4">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="com.qa.opencart.tests.LoginPageTest">
-        <methods>
-          <include name="loginPageTitleTest"/>
-          <include name="setup"/>
-          <include name="loginPageURLTest"/>
-          <include name="attachScreenshot"/>
-          <include name="doLoginTest"/>
-          <include name="forgotPasswordLinkExistTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
-    </classes>
-  </test> <!-- Login Page Test_firefox(failed) -->
-  <test thread-count="5" parallel="tests" name="Login Page Test_chrome(failed)" verbose="4">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.qa.opencart.tests.LoginPageTest">
-        <methods>
-          <include name="loginPageTitleTest"/>
-          <include name="setup"/>
-          <include name="attachScreenshot"/>
-          <include name="loginPageURLTest"/>
-          <include name="doLoginTest"/>
-          <include name="forgotPasswordLinkExistTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
-    </classes>
-  </test> <!-- Login Page Test_chrome(failed) -->
 </suite> <!-- Failed suite [Opencart App Test Regression Suite] -->
