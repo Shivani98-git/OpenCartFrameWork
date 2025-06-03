@@ -39,7 +39,7 @@ pipeline
         stage('Regression Automation Tests') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/Shivani98-git/OpenCartFrameWork'
+                    git 'https://github.com/naveenanimation20/Dec2024OpenCartFramework.git'
                     bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_regression.xml -Denv=qa"
                     
                 }
@@ -55,7 +55,7 @@ pipeline
                         jdk: '',
                         properties: [],
                         reportBuildPolicy: 'ALWAYS',
-                        results: [[path: 'D:\Automation Testing\eclipse workspace\POMSeries\allure-results']]
+                        results: [[path: '/allure-results']]
                     ])
                 }
             }
@@ -83,7 +83,7 @@ pipeline
         stage('Sanity Automation Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    git 'https://github.com/Shivani98-git/OpenCartFrameWork'
+                    git 'https://github.com/naveenanimation20/Dec2024OpenCartFramework.git'
                     bat "mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_sanity.xml -Denv=stage"
                     
                 }
