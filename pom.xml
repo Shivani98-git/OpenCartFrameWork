@@ -19,6 +19,13 @@
 		<aspectj.version>1.9.19</aspectj.version>
 		<selenium.version>4.31.0</selenium.version>
 	</properties>
+    
+    <distributionManagement>
+		<snapshotRepository>
+			<id>nexus-snapshots</id>
+			<url>http://admin:admin123@localhost:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	
 
