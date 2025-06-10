@@ -5,20 +5,20 @@
     <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
     <listener class-name="com.qa.opencart.listeners.TestAllureListener"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Login Page Test_edge(failed)" verbose="4">
-    <parameter name="browser" value="edge"/>
+  <test thread-count="5" parallel="tests" name="Register Page Test(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testname" value="Register page test"/>
+    <parameter name="browserversion" value="113.0"/>
     <classes>
-      <class name="com.qa.opencart.tests.LoginPageTest">
+      <class name="com.qa.opencart.tests.RegisterPagetest">
         <methods>
-          <include name="loginPageTitleTest"/>
+          <include name="Userregisterationtest"/>
           <include name="setup"/>
-          <include name="loginPageURLTest"/>
           <include name="attachScreenshot"/>
-          <include name="doLoginTest"/>
-          <include name="forgotPasswordLinkExistTest"/>
+          <include name="AccPageSetup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+      </class> <!-- com.qa.opencart.tests.RegisterPagetest -->
     </classes>
-  </test> <!-- Login Page Test_edge(failed) -->
+  </test> <!-- Register Page Test(failed) -->
 </suite> <!-- Failed suite [Opencart App Test Regression Suite] -->
