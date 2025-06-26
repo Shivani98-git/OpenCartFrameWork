@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Opencart_App_Test_Regression_Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">12 methods,   12 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,26 @@
                       <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" class="show-methods passed suite-Opencart_App_Test_Regression_Suite"> (show)</a> <!-- show-methods passed suite-Opencart_App_Test_Regression_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Opencart_App_Test_Regression_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="AccountsPageTitleTest">AccountsPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="AccountsPageTitleTest">AccountsPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="AccountsPageUrlTest">AccountsPageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.AccountsPageTest" class="method navigator-link" hash-for-method="AccountsPageUrlTest">AccountsPageUrlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Opencart_App_Test_Regression_Suite" title="com.qa.opencart.tests.LoginPageTest" class="method navigator-link" hash-for-method="doLoginTest">doLoginTest</a> <!-- method navigator-link -->
@@ -233,6 +253,42 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Opencart_App_Test_Regression_Suite-class-passed -->
+          <div class="suite-Opencart_App_Test_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.opencart.tests.AccountsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AccountsPageTitleTest">
+                  </a> <!-- AccountsPageTitleTest -->
+                  <span class="method-name">AccountsPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AccountsPageTitleTest">
+                  </a> <!-- AccountsPageTitleTest -->
+                  <span class="method-name">AccountsPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AccountsPageUrlTest">
+                  </a> <!-- AccountsPageUrlTest -->
+                  <span class="method-name">AccountsPageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AccountsPageUrlTest">
+                  </a> <!-- AccountsPageUrlTest -->
+                  <span class="method-name">AccountsPageUrlTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Opencart_App_Test_Regression_Suite-class-passed -->
         </div> <!-- panel Opencart_App_Test_Regression_Suite -->
         <div panel-name="test-xml-Opencart_App_Test_Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -249,16 +305,36 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Login Page Test_chrome&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testname&quot; value=&quot;Login page test&quot;/&gt;
+    &lt;parameter name=&quot;browserversion&quot; value=&quot;126.0&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.opencart.tests.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login Page Test_chrome --&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Login Page Test_firefox&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;testname&quot; value=&quot;Login page test&quot;/&gt;
+    &lt;parameter name=&quot;browserversion&quot; value=&quot;125.0&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.opencart.tests.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login Page Test_firefox --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Accounts Page Test_chrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;testname&quot; value=&quot;Accounts page test&quot;/&gt;
+    &lt;parameter name=&quot;browserversion&quot; value=&quot;124.0&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.opencart.tests.AccountsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Accounts Page Test_chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Accounts Page Test_firefox&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;testname&quot; value=&quot;Accounts page test&quot;/&gt;
+    &lt;parameter name=&quot;browserversion&quot; value=&quot;124.0&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.opencart.tests.AccountsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Accounts Page Test_firefox --&gt;
 &lt;/suite&gt; &lt;!-- Opencart App Test Regression Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -274,6 +350,12 @@
               </li>
               <li>
                 <span class="test-name">Login Page Test_firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Accounts Page Test_chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Accounts Page Test_firefox (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -299,44 +381,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'doLoginTest')
 data.setCell(0, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(0, 3, 4386);
+data.setCell(0, 3, 3606);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'doLoginTest')
 data.setCell(1, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(1, 3, 3261);
+data.setCell(1, 3, 3145);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'forgotPasswordLinkExistTest')
 data.setCell(2, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(2, 3, 1179);
+data.setCell(2, 3, 1007);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'forgotPasswordLinkExistTest')
 data.setCell(3, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(3, 3, 1095);
+data.setCell(3, 3, 717);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginPageTitleTest')
-data.setCell(4, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(4, 3, 115);
+data.setCell(4, 1, 'AccountsPageTitleTest')
+data.setCell(4, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(4, 3, 63);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'loginPageURLTest')
+data.setCell(5, 1, 'loginPageTitleTest')
 data.setCell(5, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(5, 3, 55);
+data.setCell(5, 3, 62);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'loginPageURLTest')
-data.setCell(6, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(6, 3, 39);
+data.setCell(6, 1, 'AccountsPageTitleTest')
+data.setCell(6, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(6, 3, 53);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'loginPageTitleTest')
+data.setCell(7, 1, 'loginPageURLTest')
 data.setCell(7, 2, 'com.qa.opencart.tests.LoginPageTest')
-data.setCell(7, 3, 35);
+data.setCell(7, 3, 48);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AccountsPageUrlTest')
+data.setCell(8, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(8, 3, 47);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'AccountsPageUrlTest')
+data.setCell(9, 2, 'com.qa.opencart.tests.AccountsPageTest')
+data.setCell(9, 3, 37);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginPageURLTest')
+data.setCell(10, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(10, 3, 33);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginPageTitleTest')
+data.setCell(11, 2, 'com.qa.opencart.tests.LoginPageTest')
+data.setCell(11, 3, 33);
 window.suiteTableData['Opencart_App_Test_Regression_Suite']= { tableData: data, tableDiv: 'times-div-Opencart_App_Test_Regression_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Opencart_App_Test_Regression_Suite">
               </div> <!-- times-div-Opencart_App_Test_Regression_Suite -->
             </div> <!-- times-div -->
@@ -364,85 +462,171 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setup(firefox)</span>
+                <span class="method-name">setup(firefox, 125.0, Login page test)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.AccountsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setup(chrome)</span>
+                <span class="method-name">setup(chrome, 124.0, Accounts page test)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome, 126.0, Login page test)</span>
                 <span class="method-start">1 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(firefox, 124.0, Accounts page test)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">AccPageSetup</span>
+                <span class="method-start">5906 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">forgotPasswordLinkExistTest</span>
-                <span class="method-start">8283 ms</span>
+                <span class="method-start">5940 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">attachScreenshot([TestResult name=forgotPasswordLinkExistTest status=SUCCESS method=LoginPageTest.forgotPasswordLinkE...)</span>
-                <span class="method-start">9822 ms</span>
+                <span class="method-start">6802 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">9870 ms</span>
+                <span class="method-start">6818 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">attachScreenshot([TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, ...)</span>
-                <span class="method-start">9992 ms</span>
+                <span class="method-start">6883 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">loginPageURLTest</span>
-                <span class="method-start">9995 ms</span>
+                <span class="method-start">6883 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">attachScreenshot([TestResult name=loginPageURLTest status=SUCCESS method=LoginPageTest.loginPageURLTest()[pri:0, inst...)</span>
-                <span class="method-start">10055 ms</span>
+                <span class="method-start">6931 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">doLoginTest</span>
-                <span class="method-start">10064 ms</span>
+                <span class="method-start">6931 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">forgotPasswordLinkExistTest</span>
-                <span class="method-start">13039 ms</span>
+                <span class="method-start">7719 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">AccPageSetup</span>
+                <span class="method-start">8064 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">attachScreenshot([TestResult name=forgotPasswordLinkExistTest status=SUCCESS method=LoginPageTest.forgotPasswordLinkE...)</span>
-                <span class="method-start">14223 ms</span>
+                <span class="method-start">8730 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">14228 ms</span>
+                <span class="method-start">8732 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">attachScreenshot([TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, ...)</span>
-                <span class="method-start">14268 ms</span>
+                <span class="method-start">8767 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">loginPageURLTest</span>
-                <span class="method-start">14272 ms</span>
+                <span class="method-start">8769 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">attachScreenshot([TestResult name=loginPageURLTest status=SUCCESS method=LoginPageTest.loginPageURLTest()[pri:0, inst...)</span>
-                <span class="method-start">14321 ms</span>
+                <span class="method-start">8808 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">doLoginTest</span>
-                <span class="method-start">14326 ms</span>
+                <span class="method-start">8810 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AccountsPageTitleTest</span>
+                <span class="method-start">9513 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">attachScreenshot([TestResult name=doLoginTest status=SUCCESS method=LoginPageTest.doLoginTest()[pri:32767, instance:c...)</span>
-                <span class="method-start">14454 ms</span>
+                <span class="method-name">attachScreenshot([TestResult name=AccountsPageTitleTest status=SUCCESS method=AccountsPageTest.AccountsPageTitleTest(...)</span>
+                <span class="method-start">9568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">AccountsPageUrlTest</span>
+                <span class="method-start">9572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=AccountsPageUrlTest status=SUCCESS method=AccountsPageTest.AccountsPageUrlTest()[pr...)</span>
+                <span class="method-start">9611 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14460 ms</span>
+                <span class="method-start">9613 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=doLoginTest status=SUCCESS method=LoginPageTest.doLoginTest()[pri:32767, instance:c...)</span>
+                <span class="method-start">10537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10537 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.AccountsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AccountsPageTitleTest</span>
+                <span class="method-start">11530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=AccountsPageTitleTest status=SUCCESS method=AccountsPageTest.AccountsPageTitleTest(...)</span>
+                <span class="method-start">11593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">AccountsPageUrlTest</span>
+                <span class="method-start">11593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=AccountsPageUrlTest status=SUCCESS method=AccountsPageTest.AccountsPageUrlTest()[pr...)</span>
+                <span class="method-start">11640 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11655 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11970 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-method after">
                 <span class="method-name">attachScreenshot([TestResult name=doLoginTest status=SUCCESS method=LoginPageTest.doLoginTest()[pri:32767, instance:c...)</span>
-                <span class="method-start">17593 ms</span>
+                <span class="method-start">11970 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">17602 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -19,9 +19,9 @@
         <span class="ms-3 fs-6">Open Cart Test Automation</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 15s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-06-26 05:59:42 p.m.</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-06-26 05:59:58 p.m.</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 14s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-06-26 06:33:31 p.m.</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-06-26 06:33:46 p.m.</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -114,11 +114,11 @@
             <div class="col-4">
               <h6 class="mb-3 testname fs-6 passed">Opencart App Test Regression Suite</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 13s</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 12s</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-06-26 05:59:44 p.m.</span>
+                  2025-06-26 06:33:32 p.m.</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-06-26 05:59:58 p.m.</span>
+                  2025-06-26 06:33:45 p.m.</span>
               </div>
               
             </div>
@@ -158,7 +158,7 @@
           <span class="fs-6 ms-2">forgotPasswordLinkExistTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">635ms</span>
+          <span class="badge text-dark bg-light">661ms</span>
         </div>
       </div>
       <p class="desc">forgotPasswordLinkExistTest</p>
@@ -175,7 +175,7 @@ Locator:By.linkText: Forgotten Password
           <span class="fs-6 ms-2">loginPageTitleTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">40ms</span>
+          <span class="badge text-dark bg-light">62ms</span>
         </div>
       </div>
       <p class="desc">checking login title</p>
@@ -192,7 +192,89 @@ Checking login page titleAccount Login
           <span class="fs-6 ms-2">loginPageURLTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">40ms</span>
+          <span class="badge text-dark bg-light">48ms</span>
+        </div>
+      </div>
+      <p class="desc">checking login page Url</p>
+    </div>
+    <div class="leaf passed pb-1 logs-toggle">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">doLoginTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">3s</span>
+        </div>
+      </div>
+      <p class="desc">login with valid credentials</p>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+Locator:By.id: input-password
+Locator:By.id: input-password
+Locator:By.xpath: //input[@value='Login']
+          </pre>
+        </div>
+    </div>
+  </div>
+
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">com.qa.opencart.tests.LoginPageTest</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">4s</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-3 border-top">
+    <div class="leaf passed pb-1 logs-toggle">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">forgotPasswordLinkExistTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">1s</span>
+        </div>
+      </div>
+      <p class="desc">forgotPasswordLinkExistTest</p>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+Locator:By.linkText: Forgotten Password
+          </pre>
+        </div>
+    </div>
+    <div class="leaf passed pb-1 logs-toggle">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">loginPageTitleTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">31ms</span>
+        </div>
+      </div>
+      <p class="desc">checking login title</p>
+        <div class="mt-3 logs d-none">
+          <pre class="pb-0">
+Checking login page titleAccount Login
+          </pre>
+        </div>
+    </div>
+    <div class="leaf passed pb-1 ">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">loginPageURLTest </span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">32ms</span>
         </div>
       </div>
       <p class="desc">checking login page Url</p>
@@ -240,7 +322,7 @@ Locator:By.xpath: //input[@value='Login']
           <span class="fs-6 ms-2">AccountsPageTitleTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">47ms</span>
+          <span class="badge text-dark bg-light">51ms</span>
         </div>
       </div>
       <p class="desc"></p>
@@ -252,7 +334,7 @@ Locator:By.xpath: //input[@value='Login']
           <span class="fs-6 ms-2">AccountsPageUrlTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">31ms</span>
+          <span class="badge text-dark bg-light">36ms</span>
         </div>
       </div>
       <p class="desc"></p>
@@ -264,7 +346,7 @@ Locator:By.xpath: //input[@value='Login']
           <span class="fs-6 ms-2">AccountsPageTitleTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">33ms</span>
+          <span class="badge text-dark bg-light">48ms</span>
         </div>
       </div>
       <p class="desc"></p>
@@ -276,92 +358,10 @@ Locator:By.xpath: //input[@value='Login']
           <span class="fs-6 ms-2">AccountsPageUrlTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">29ms</span>
+          <span class="badge text-dark bg-light">47ms</span>
         </div>
       </div>
       <p class="desc"></p>
-    </div>
-  </div>
-
-                  </div>
-                </div>
-                <div class="card mb-3 result passed">
-                  <div class="card-body">
-                    <div class="d-flex justify-content-between">
-                      <div>
-                          <i class="bi bi-check-circle-fill text-success"></i>
-                        <span class="fs-6 ms-2">com.qa.opencart.tests.LoginPageTest</span>
-                      </div>
-                      <div>
-                        <span class="badge text-dark bg-light">4s</span>
-                      </div>
-                    </div>
-                    
-  <div class="mt-3 border-top">
-    <div class="leaf passed pb-1 logs-toggle">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="fs-6 ms-2">forgotPasswordLinkExistTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">1s</span>
-        </div>
-      </div>
-      <p class="desc">forgotPasswordLinkExistTest</p>
-        <div class="mt-3 logs d-none">
-          <pre class="pb-0">
-Locator:By.linkText: Forgotten Password
-          </pre>
-        </div>
-    </div>
-    <div class="leaf passed pb-1 logs-toggle">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="fs-6 ms-2">loginPageTitleTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">32ms</span>
-        </div>
-      </div>
-      <p class="desc">checking login title</p>
-        <div class="mt-3 logs d-none">
-          <pre class="pb-0">
-Checking login page titleAccount Login
-          </pre>
-        </div>
-    </div>
-    <div class="leaf passed pb-1 ">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="fs-6 ms-2">loginPageURLTest </span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">29ms</span>
-        </div>
-      </div>
-      <p class="desc">checking login page Url</p>
-    </div>
-    <div class="leaf passed pb-1 logs-toggle">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="fs-6 ms-2">doLoginTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">3s</span>
-        </div>
-      </div>
-      <p class="desc">login with valid credentials</p>
-        <div class="mt-3 logs d-none">
-          <pre class="pb-0">
-Locator:By.id: input-password
-Locator:By.id: input-password
-Locator:By.xpath: //input[@value='Login']
-          </pre>
-        </div>
     </div>
   </div>
 
@@ -410,23 +410,23 @@ Locator:By.xpath: //input[@value='Login']
               <tbody>
                   <tr>
                     <td>java.version</td>
-                    <td>23</td>
+                    <td>17.0.12</td>
                   </tr>
                   <tr>
                     <td>java.vm.name</td>
-                    <td>OpenJDK 64-Bit Server VM</td>
+                    <td>Java HotSpot(TM) 64-Bit Server VM</td>
                   </tr>
                   <tr>
                     <td>java.vm.vendor</td>
-                    <td>Eclipse Adoptium</td>
+                    <td>Oracle Corporation</td>
                   </tr>
                   <tr>
                     <td>java.class.version</td>
-                    <td>67.0</td>
+                    <td>61.0</td>
                   </tr>
                   <tr>
                     <td>java.runtime.name</td>
-                    <td>OpenJDK Runtime Environment</td>
+                    <td>Java(TM) SE Runtime Environment</td>
                   </tr>
                   <tr>
                     <td>os.name</td>
